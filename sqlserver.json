@@ -54,7 +54,7 @@
 	},
 
 	"variables": {
-		"uniquestoragename": "[concat(parameters('storagename'),uniqueString(resourceGroup().id))]",
+		//"uniquestoragename": "[concat(parameters('storagename'),uniqueString(resourceGroup().id))]",
 		"uniqueappname": "[concat(parameters('appname'),uniqueString(resourceGroup().id))]",
 		"uniqueappserviceplanname": "[concat(parameters('appserviceplanname'),uniqueString(resourceGroup().id))]",
 		"uniquesqlname": "[concat(parameters('sqlservername '),uniqueString(resourceGroup().id))]"
@@ -63,7 +63,7 @@
 	"resources": [{
 			"type": "Microsoft.Storage/storageAccounts",
 			"apiVersion": "2021-06-01",
-			"name": "[variables('uniquestoragename')]",
+			"name": "sumitbrillio7667",
 			"location": "[parameters('location')]",
 			"sku": {
 				"name": "[parameters('storagesku')]"
