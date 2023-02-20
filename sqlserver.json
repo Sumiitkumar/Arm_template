@@ -63,7 +63,7 @@
 	"resources": [{
 			"type": "Microsoft.Storage/storageAccounts",
 			"apiVersion": "2021-06-01",
-			"name": "sumitbrillio7667",
+			"name": "sumitdbrillio",
 			"location": "[parameters('location')]",
 			"sku": {
 				"name": "[parameters('storagesku')]"
